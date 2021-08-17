@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option objc_class_prefix = "Demo";
+
+package demo;
+
+message data {
+    string type_url = 1;
+    string text = 2;
+}
